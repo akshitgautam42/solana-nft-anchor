@@ -3,7 +3,7 @@ seeds = false
 skip-lint = false
 
 [programs.devnet]
-# solana_nft_anchor = "<UPDATE HERE>"
+# solana_nft_anchor = "A7eG6M7MzRrpMq9J4Q1oAyhyhD5n2DVWtscv64iinMfw"
 
 [registry]
 url = "https://api.apr.dev"
@@ -14,3 +14,6 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+
+[toolchain]
+anchor_version = "0.29.0"
